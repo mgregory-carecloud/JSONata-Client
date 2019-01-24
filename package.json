@@ -1,0 +1,27 @@
+{
+  "name": "jsonata-client",
+  "version": "0.0.1",
+  "description": "JSONata Client",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "electron -r babel-register .",
+    "build": "electron-packager . 'JSONata Client' --all --out=release-builds --overwrite --icon '/Users/mgregory/src/cc/JSONata-Client/src/public/images/icon.png'"
+  },
+  "repository": "https://github.com/mgregory-carecloud/JSONata-Client",
+  "keywords": [],
+  "author": "mgregory-carecloud",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "axios": "0.18.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "dependencies": {
+    "electron-context-menu": "^0.9.0",
+    "electron-packager": "^12.1.1"
+  }
+}
